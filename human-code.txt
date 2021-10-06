@@ -1,0 +1,73 @@
+apro Slack
+guardo canale comunicazioni
+verifico se é presente un esercizio
+    esercizio assente: vado a giocare alla play
+    esercizio presente: continuo
+mi segno il titolo dell'esercizio
+leggo attentamente il contenuto dell'esercizio
+verifico se sono presenti file allegati
+    se presenti:
+        scarico file zip
+
+vado su github
+sono già loggato?
+    se no effettuo login
+    se si continuo
+creo nuova repository con il titolo precedentemente annotato
+copio il link della repository
+apro vs code
+clono la repository usando il link precedentemente copiato
+seleziono la posizione della cartella
+dichiaro di fidarmi incondizionatamente dell'autore della repository
+se in precedenza avevo scaricato un file zip estraggo il contenuto del file zip precedentemente scaricato nella directory root
+creo file index.html
+creo cartella css
+creo file style.css in cartella css
+apro file index.html
+creo struttura base html
+    doctype
+    html
+    head
+        title
+        link css
+        link bootstrap
+        link icone bootstrap
+        link font awesome
+        meta charset
+        meta viewport
+    body
+        header
+        main
+        footer
+eseguo commit con messaggio "added html structure"
+eseguo push
+apro immagine con reference esercizio
+verifico se esiste progettazione figma fatta a lezione:
+    se presente
+        ringrazio florian
+        apro link figma
+    se non presente
+        piango
+        chiedo nella sezione random se per caso esiste un link figma con la progettazione già fatta
+            se presente:
+                smetto di piangere
+                apro link figma
+            se non presente
+                creo nuovo progetto figma
+                investo svariate ore nella suddivisione del layout in 12 colonne
+torno su visual studio code
+scorro le macro-sezioni individuate all'interno del file di progettazione di figma
+    per ciascuna sezione effettuo implementazione del layout
+        il layout è uguale a quello della reference?
+            se sì passo alla sezione successiva
+            se no
+                continuo a lavorare sulla sezione per 15 minuti
+                sono riuscito a fare progressi che ritengo adeguati
+                    se sì continuo a lavorare (linea 61)
+                    se no apro ticket
+
+
+verifico intero esercizio
+commit
+push
+
